@@ -1,7 +1,70 @@
-<head>
-    <link rel="stylesheet" href="style.css">
-</head>
-В файле 'style.css':
+* {
+    margin: 0;
+}
+
 h1 {
-    background-color: red;
+    color: blue;
+}
+
+p {
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#main-heading {
+    font-size: 2rem;
+}
+
+#main-heading,
+p,
+span {
+    padding: 10px;
+}
+
+[data-category="main"] {
+    border: 1px solid black;
+}
+
+div .grid {
+    color: blue;
+}
+
+div>p {
+    color: red;
+}
+
+.grid~p {
+    color: gray;
+}
+
+img {
+    padding: 25px;
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+img {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 10px;
+    border: 5px solid blue;
+}
+
+.button {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
 }
